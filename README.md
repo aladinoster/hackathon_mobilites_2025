@@ -95,11 +95,8 @@ Chaque équipe aura son propre **répertoire de code public** (Github ou Gitlab)
 Une fois un service d'IDE déployé sur Onyxia (voir ci-dessous) vous pouvez cloner votre répertoire pour travailler dessus.
 
 Deux choses : 
-- **Pour le README, veuillez [utiliser ce modèle](lien)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
+- **Pour le README, veuillez [utiliser ce modèle](docs/Template README 2025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
 - Ajoutez le topic *hackathonidfm2025* à la description de votre répertoire (voir image ci-dessous)
-
-
-<img src="images/topic.png" alt="Capture d'écran de l'ajout du topic sur Github" width="300"/>
 
 
 #### La plateforme Onyxia et ses services
@@ -112,7 +109,7 @@ C'est une application web open-source développée par l’Insee conçue pour le
 2. Une fois connecté·e à Onyxia, vous avez accès votre projet personnel. Vous serez ajouté·e au projet dédié au hackathon **"dlb-hackathon"** (voir image ci-dessous).
 3. **Toutes les équipes travaillent à partir de ce projet**. C'est dans ce projet que sont partagées en tant que variables d'environnement les clés des différentes APIs et ressources mises à disposition.
 
-![Capture d'écran sélection du projet Onyxia](/images/projet-onyxia.png)
+![Capture d'écran sélection du projet Onyxia](images_documentation/onyxia accueil.png)
 
 Vous pouvez ensuite **lancer des services** (par exemple un service Visual Studio Code Python), et les lier au repositoire de code de votre groupe. Nommez bien vos service avec le nom de votre équipe "EQUIPE X".
 
@@ -120,7 +117,7 @@ Vous pouvez ensuite **lancer des services** (par exemple un service Visual Studi
  
 Pour en savoir plus : 
 - Voir [ce tutoriel](https://docs.onyxia.sh/user-doc/setting-up-your-dev-environment-in-onyxia) pour configurer automatiquement le lancement d'un sevice.
-- Lire ce [rapide document](/docs/HIAM2024%20-%20Organisation%20et%20lancement%20des%20services%20Onyxia.md) pour savoir comment sont gérées les secrets d'accès aux services Azure et OpenIA sur Onyxia
+- Lire ce [rapide document](docs/Organisation et lancement des services Onyxia.md) pour savoir comment sont gérées les secrets d'accès aux services Azure et OpenIA sur Onyxia
 
 Les principaux services proposés : 
 | Nom du service | Description | Catégorie de service | Espace de lancement |
@@ -128,7 +125,7 @@ Les principaux services proposés :
 | Jupyter python | IDE Jupyter avec les libraires data python pré-installées | Environnements de développement |dbl-hackathon : une instance par équipe|
 | VSCode python | Visual Studio Code avec les libraire data python pré-installées | Environnements de développement |dbl-hackathon : une instance par équipe|
 | Cloudbeaver | pour vos bases de données | Base de données |espace personnel (non partageable)|
-| OpenWebIU | une interface web "no-code" (ou pas) pour créer des chatbots personnalisés à partir d'une grande diversité de modèles de langage | Spécifique au Hackathon |dbl-hackathon : une instance par équipe ([tutoriel](/docs/HIAM2024%20-%20Config%20OpenwebUI.md)) |
+| OpenWebIU | une interface web "no-code" (ou pas) pour créer des chatbots personnalisés à partir d'une grande diversité de modèles de langage | Spécifique au Hackathon |dbl-hackathon : une instance par équipe ([tutoriel](lien)) |
 | Elastic | pour vos bases vectorielles et stockages de documents JSON | Base de données |dbl-hackathon : une instance commune à toutes les équipes|
 
 #### Les ressources à votre disposition
@@ -139,11 +136,11 @@ Vous disposez d'un certain nombre de ressources. **Le but n'est pas de toutes le
 
 | Ressource | Description | Lien |
 |-----------|-------------|------|
-| Les ressources IA | Accès aux ressources et modèles IA | [Lien secrets Onyxia](/docs/HIAM2024%20-%20Organisation%20et%20lancement%20des%20services%20Onyxia.md) |
+| Les ressources IA | Accès aux ressources et modèles IA | [Lien secrets Onyxia](lien) |
 | Les données et documents | Liste de toutes les données et documents | [lien](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A) |
-| Le notebooks de prise en main des données | Notebook pour prendre en main certains jeux de données | [lien](/notebooks/HIAM2024%20-%20Guide%20données%20hackathon.ipynb) |
-| Les snippets de code | Snippets de code pour rapidement prendre en main les APIs | [lien](https://github.com/IleDeFranceMobilites/hackathon_ia_mobilites_2024/blob/main/notebooks/HIAM2024%20-%20Snippets%20de%20code.ipynb) |
-| Les exemples (notebook) | Exemple de RAG et guide de stockage des données | [lien RAG](/notebooks/HIAM2024%20-%20Template%20de%20RAG%20sur%20base%20Elastic.ipynb), [lien base vectorielle](/notebooks/HIAM2024%20-%20Template%20alimentation%20base%20Elastic.ipynb) et [lien guide stockage](/notebooks/HIAM2024%20-%20Guide%20utilisation%20stockage%20Onyxia%20-%20v2.ipynb) |
+| Le notebooks de prise en main des données | Notebook pour prendre en main certains jeux de données | [lien](lien) |
+| Les snippets de code | Snippets de code pour rapidement prendre en main les APIs | [lien](lien) |
+| Les exemples (notebook) | Exemple de RAG et guide de stockage des données | [lien RAG](lien), [lien base vectorielle](/lien) et [lien guide stockage](lien) |
 
 ##### Les données et documents
 
@@ -155,18 +152,18 @@ Ils sont accessibles [depuis ce lien](https://airtable.com/appGp6Hwf0NrmXQ9L/shr
 
 ##### Les notebook de prise en main des données
 
-Certains jeux de données ont été spécialement mis à disposition pour le Hackathon, et se trouvent dans les fichiers partagés sur Onyxia. Les équipes d'île-de-France Mobilités ont [partagé dans un notebook](/notebooks/HIAM2024%20-%20Guide%20données%20hackathon.ipynb) quelques fonctions pour prendre en main les données. Le notebook présente aussi quelques données intéressantes.
+Certains jeux de données ont été spécialement mis à disposition pour le Hackathon, et se trouvent dans les fichiers partagés sur Onyxia. Les équipes d'île-de-France Mobilités ont [partagé dans un notebook](lien) quelques fonctions pour prendre en main les données. Le notebook présente aussi quelques données intéressantes.
 
 ##### Les snippets de code
 
-Ces **[snippets de code](https://github.com/IleDeFranceMobilites/hackathon_ia_mobilites_2024/blob/main/notebooks/HIAM2024%20-%20Snippets%20de%20code.ipynb)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
+Ces **[snippets de code](lien)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
 
 #### Les exemples (notebook)
-Les équipes d'Île-de-France Mobilités ont préparé un [**exemple de Retrieval Augemented Generation RAG**](/notebooks/HIAM2024%20-%20Template%20de%20RAG%20sur%20base%20Elastic.ipynb), avec un exemple de création et d'[**alimentation d'une base vectorielle**](/notebooks/HIAM2024%20-%20Template%20alimentation%20base%20Elastic.ipynb), qui permet d'enrichir les connaissances d'un modèle de langage avec des données spécifiques. 
+Les équipes d'Île-de-France Mobilités ont préparé un [**exemple de Retrieval Augemented Generation RAG**](lien), avec un exemple de création et d'[**alimentation d'une base vectorielle**](lien), qui permet d'enrichir les connaissances d'un modèle de langage avec des données spécifiques. 
 
-Vous pouvez **lancer les notebooks exemple directement sur Onyxia**. Pour cela, **assurez vous d'être connecté·e·s sur Onyxia et d'être sur le projet "dlb-hackathon"**, puis lancez un service type VSCODE-Python et importez-y les [notebook exemples](/notebooks/HIAM2024%20-%20Template%20de%20RAG%20sur%20base%20Elastic.ipynb) du dossier notebook de ce projet github.
+Vous pouvez **lancer les notebooks exemple directement sur Onyxia**. Pour cela, **assurez vous d'être connecté·e·s sur Onyxia et d'être sur le projet "dlb-hackathon"**, puis lancez un service type VSCODE-Python et importez-y les [notebook exemples](lien) du dossier notebook de ce projet github.
 
-Vous avez également à disposition un [guide d'utilisation du stockage des données sur Onyxia](/notebooks/HIAM2024%20-%20Guide%20utilisation%20stockage%20Onyxia%20-%20v2.ipynb) (S3 MinIO, DuckDB, etc...).
+Vous avez également à disposition un [guide d'utilisation du stockage des données sur Onyxia](lien) (S3 MinIO, DuckDB, etc...).
 
 #### La documentation
 Comme d'habitude, lisez les documentations en ligne des services utilisés !
@@ -177,14 +174,14 @@ Comme d'habitude, lisez les documentations en ligne des services utilisés !
 Vos projets viendront alimenter la communauté Data IA et mobilités. **Les réalisation seront publiées sous licences libres** (type MIT) et publiées sur **un répertoire de coce public** (Github ou Gitlab). 
 
 Concrètement, vous allez réaliser :
-- un [support de présentation](lien) pour le pitch ;
-- le projet dans le répertoire de code public : des notebooks, applications, templates, jeux de données …. Le [modèle de README](lien) doit vous servir à documenter votre projet ;
+- un [support de présentation](https://drive.google.com/drive/u/0/folders/1F9pkX9DwDJxw5rXWIiKHeD_um1sa5BH9) pour le pitch ;
+- le projet dans le répertoire de code public : des notebooks, applications, templates, jeux de données …. Le [modèle de README](docs/Template README 2025.md) doit vous servir à documenter votre projet ;
 - tout autre forme qui pourra valoriser votre projet
 
 **Chaque équipe présentera son projet au jury à l’oral**, dans un temps limité. Vous avez 4 minutes pour pitcher votre projet, suivies de 2 minutes de Q&R.
 
 Rappel : 
-- **Pour le README, veuillez [utiliser ce modèle](lien)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
+- **Pour le README, veuillez [utiliser ce modèle](docs/Template README 2025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
 - Ajoutez le topic *hackathonidfm2025* à la description de votre répertoire (voir image ci-dessous)
 - **Ajoutez le lien de votre répertoire** dans vos diapositives de pitch + vos canal slack en message épinglé
 
@@ -193,10 +190,11 @@ Rappel :
 - **🏆Premier Prix**
 - 🏆Deuxième Prix
 - 🏆Troisième Prix
+- 🎉Prix spécial du jury
 
 Voici la grille qui sera remise au Jury (à titre indicatif, le Jury est souverain dans ses choix !)
 
-<img src="images/grille.png" alt="grille pour la restitution" width="400"/>
+![Grille évaluation](images_documentation/grille eval.png)
 
 
 ## Foire Aux Questions (FAQ)
