@@ -24,16 +24,16 @@ Ce projet a été développé dans le cadre du [Hackathon Mobilités](lien), org
 > - Les données mobilisées
 > - Comment elle répond au problème
 
-### Les problèmes surmontés
+### Les problèmes surmontés et les enjeux en matière de données
 > [!TIP]
-> Ici vous pouvez présenter les principaux problèmes rencontrés et les solutions apportées
+> Ici vous pouvez présenter les principaux problèmes rencontrés en les liant à vos solutions, ainsi que d'éventuelles recommendations à Ile-de-France Mobilités en matière d'ouverture de données et d'API qui auraient été utiles pour votre proposition
 
 ### Et la suite ? 
 > [!TIP]
 > Ici vous vous projetez sur comment vous auriez aimé développer votre projet si vous aviez eu plus de temps ! (Quel cas d'usage pour la suite ? Quelles ressources à mobiliser ?)
 
 
-## Intallation et utilisation
+## Installation et utilisation
 > [!TIP]
 > Si vous avez le temps, vous pouvez décrire les étapes d'installation de votre projet (commandes à lancer, ...) et son fonctionnement.
 
