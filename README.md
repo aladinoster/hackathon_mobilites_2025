@@ -1,4 +1,4 @@
-![Logo du Hackathon Mobilités](/images_documentation/Hackathon mobilités_logo simple.jpg)
+![Logo du Hackathon Mobilités](/images_documentation/Hackathon%20mobilit%C3%A9s_logo%20simple.jpg)
 
 # Guide des participant·e·s au Hackathon Mobilités 2025
 
@@ -95,7 +95,7 @@ Chaque équipe aura son propre **répertoire de code public** (Github ou Gitlab)
 Une fois un service d'IDE déployé sur Onyxia (voir ci-dessous) vous pouvez cloner votre répertoire pour travailler dessus.
 
 Deux choses : 
-- **Pour le README, veuillez [utiliser ce modèle](docs/Template README 2025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
+- **Pour le README, veuillez [utiliser ce modèle](/docs/Template%20README%202025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
 - Ajoutez le topic *hackathonmobilites2025* à la description de votre répertoire (voir image ci-dessous)
 
 
@@ -109,7 +109,7 @@ C'est une application web open-source développée par l’Insee conçue pour le
 2. Une fois connecté·e à Onyxia, vous avez accès votre projet personnel. Vous serez ajouté·e au projet dédié au hackathon **"dlb-hackathon"** (voir image ci-dessous).
 3. **Toutes les équipes travaillent à partir de ce projet**. C'est dans ce projet que sont partagées en tant que variables d'environnement les clés des différentes APIs et ressources mises à disposition.
 
-![Capture d'écran sélection du projet Onyxia](images_documentation/onyxia accueil.png)
+![Capture d'écran sélection du projet Onyxia](/images_documentation/onyxia%20accueil.png)
 
 Vous pouvez ensuite **lancer des services** (par exemple un service Visual Studio Code Python), et les lier au repositoire de code de votre groupe. Nommez bien vos services avec le nom de votre équipe "EQUIPE X".
 
@@ -147,7 +147,7 @@ Pour entraîner vos algorithmes, visualiser des données, utiliser des APIs ou e
 
 Ils sont accessibles [depuis ce lien](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A). Vous pouvez **filtrer les données sur le défi qui vous intéresse**. Certaines ressources sont issues du [Catalogue PRIM](https://prim.iledefrance-mobilites.fr/fr), d'autres sont directement ajoutées dans les fichiers du projet Onyxia 'dlb-hackathon'.
 
-<img src="images/airtable.png" alt="liste des données" width="800"/>
+![Liste des données](/images_documentation/airtable.png)
 
 ##### Les notebook de prise en main des données
 
@@ -155,13 +155,13 @@ Certains jeux de données ont été spécialement mis à disposition pour le Hac
 
 ##### Les snippets de code
 
-Ces **[snippets de code](/notebooks/HM2025 - Snippets de code.ipynb)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
+Ces **[snippets de code](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb)** vont vous permettre de gagner du temps dans la prise en main des ressources à disposition et de l'écosystème data d'île-de-France Mobilités. Par exemple, pour réaliser les appels PRIM d'Île-de-France Mobilités.
 
 #### Les exemples (notebook)
 
-Vous pouvez **lancer les notebooks exemple directement sur Onyxia**. Pour cela, **assurez vous d'être connecté·e·s sur Onyxia et d'être sur le projet "dlb-hackathon"**, puis lancez un service type VSCODE-Python et importez-y les [notebook exemples](/notebooks/HM2025 - Snippets de code.ipynb) du dossier notebook de ce projet github.
+Vous pouvez **lancer les notebooks exemple directement sur Onyxia**. Pour cela, **assurez vous d'être connecté·e·s sur Onyxia et d'être sur le projet "dlb-hackathon"**, puis lancez un service type VSCODE-Python et importez-y les [notebook exemples](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb) du dossier notebook de ce projet github.
 
-Vous avez également à disposition un [guide d'utilisation du stockage des données sur Onyxia](/notebooks/HM2025 - Snippets de code.ipynb).
+Vous avez également à disposition un [guide d'utilisation du stockage des données sur Onyxia](/notebooks/HM2025%20-%20Snippets%20de%20code.ipynb).
 
 #### La documentation
 Comme d'habitude, lisez les documentations en ligne des services utilisés !
@@ -173,13 +173,13 @@ Vos projets viendront alimenter la communauté Data IA et mobilités. **Les réa
 
 Concrètement, vous allez réaliser :
 - un [support de présentation](https://drive.google.com/drive/u/0/folders/1F9pkX9DwDJxw5rXWIiKHeD_um1sa5BH9) pour le pitch ;
-- le projet dans le répertoire de code public : des notebooks, applications, templates, jeux de données …. Le [modèle de README](docs/Template README 2025.md) doit vous servir à documenter votre projet ;
+- le projet dans le répertoire de code public : des notebooks, applications, templates, jeux de données …. Le [modèle de README](/docs/Template%20README%202025.md) doit vous servir à documenter votre projet ;
 - tout autre forme qui pourra valoriser votre projet
 
 **Chaque équipe présentera son projet au jury à l’oral**, dans un temps limité. Vous avez 4 minutes pour pitcher votre projet, suivies de 2 minutes de Q&R.
 
 Rappel : 
-- **Pour le README, veuillez [utiliser ce modèle](docs/Template README 2025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
+- **Pour le README, veuillez [utiliser ce modèle](/docs/Template%20README%202025.md)** (il vous servira pour l'envoi de votre projet à la fin du Hackathon).
 - Ajoutez le topic *hackathonmobilites2025* à la description de votre répertoire (voir image ci-dessous)
 - **Ajoutez le lien de votre répertoire** dans vos diapositives de pitch + vos canal slack en message épinglé
 
@@ -192,7 +192,7 @@ Rappel :
 
 Voici la grille qui sera remise au Jury (à titre indicatif, le Jury est souverain dans ses choix !)
 
-![Grille évaluation](images_documentation/grille eval.png)
+![Grille évaluation](/images_documentation/grille%20eval.png)
 
 
 ## Foire Aux Questions (FAQ)
