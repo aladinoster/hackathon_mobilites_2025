@@ -144,7 +144,7 @@ Vous disposez d'un certain nombre de ressources. **Le but n'est pas de toutes le
 
 Pour entraîner vos algorithmes, visualiser des données, utiliser des APIs ou encore alimenter votre RAG nous avons sélectionné pour vous des **données et documents**. 
 
-Ils sont accessibles [depuis ce lien](https://airtable.com/appGp6Hwf0NrmXQ9L/shrnmQYmL0lDKgS76/tblC8dlSqeplzyg0A). Vous pouvez **filtrer les données sur le défi qui vous intéresse**. Certaines ressources sont issues du [Catalogue PRIM](https://prim.iledefrance-mobilites.fr/fr), d'autres sont directement ajoutées dans les fichiers du projet Onyxia 'dlb-hackathon'.
+Ils sont accessibles [depuis ce lien](https://airtable.com/appoPX9ywWeRtE2ZX/shrEP0lYtNSixQRZE/tblC8dlSqeplzyg0A). Vous pouvez **filtrer les données sur le défi qui vous intéresse**. Certaines ressources sont issues du [Catalogue PRIM](https://prim.iledefrance-mobilites.fr/fr), d'autres sont directement ajoutées dans les fichiers du projet Onyxia 'dlb-hackathon'.
 
 ![Liste des données](images_documentation/airtable.png)
 
