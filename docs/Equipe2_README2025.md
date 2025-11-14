@@ -128,7 +128,7 @@ streamlit run resultats/repository/geoparquet_app/main.py
 ```
 
 
-## Documentation Technique du framework DataPrep
+## Documentation Technique du framework
 
 ### Structure des données
 
