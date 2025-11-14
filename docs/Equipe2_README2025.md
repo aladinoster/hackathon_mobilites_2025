@@ -115,13 +115,13 @@ pip install -r requirements.txt
 
 ### Utilisation
 
-1. **Lancements des notebooks** Lancement des 2 notebooks présents dans le dossier Notebooks_process pour créer les tables :
+1. **Lancements des notebooks** 
+Lancement des deux notebooks présents dans le dossier Notebooks_process pour créer les tables :
   - `data/interim/metro_connexion_nombre_etape.parquet`  
   - `data/metro_conexion_qualif.parquet`
 2. **Lancements du DataPrep** 
-```python
-resultats/repository/dataprep/main.py
-```
+Executer le fichier python présent dans resultats/repository/dataprep/main.py
+
 3. **Utilisation de la carte interactive**
 ```python
 streamlit run resultats/repository/geoparquet_app/main.py
@@ -153,7 +153,6 @@ Le projet utilise plusieurs sources de données brutes et intermédiaires :
   - Enrichies : `data/enrich/final_table.gpq`  
   - Avec classification : `data/enrich/final_table_with_class.gpq`
 
----
 
 ### Notebooks de préparation des données (dossier notebook_process)
 
@@ -172,7 +171,7 @@ Ces notebooks servent de pré-traitement pour le pipeline principal.
 ### Framework de transformation des données (dossier DataPrep)
 #### Pipeline de traitement 
 
-Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
+La pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
 
 1. **Carte PMR** : extraction et nettoyage des données PMR.
 2. **Établissements** : consolidation et nettoyage des établissements critiques.
@@ -181,7 +180,6 @@ Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
 5. **Enrichissement** : jointure de toutes les sources et calculs supplémentaires (LGF, ascenseurs, correspondances).
 6. **Classification** : attribution des stations à des classes selon des métriques clés.
 
----
 
 #### Description des Jobs
 
@@ -195,8 +193,6 @@ Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
   - Création d’une colonne d’ordre (`facilite_acces_order`) à partir des codes couleur
   - Export au format Parquet
 
----
-
 ##### EtablissementJob
 - **Objectif** : Consolider et normaliser les données d’établissements (adultes/enfants handicapés, hôpitaux)
 - **Entrées** : CSVs d’établissements multiples
@@ -207,8 +203,6 @@ Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
   - Ajout du type d’établissement
   - Fusion des sources
   - Conversion en GeoDataFrame
-
----
 
 ##### RefGareIdfJob
 - **Objectif** : Nettoyer et transformer le référentiel des gares IDF
@@ -221,8 +215,6 @@ Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
   - Conversion en GeoDataFrame
   - Export en GeoParquet
 
----
-
 ##### ValidationJob
 - **Objectif** : Consolider les validations par station et calculer le pourcentage de validations "Amethyste"
 - **Entrées** : Plusieurs fichiers Parquet trimestriels
@@ -233,8 +225,6 @@ Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
   - Calcul du total par station
   - Calcul du total "Amethyste" et pourcentage
   - Export au format Parquet
-
----
 
 ##### EnrichJob
 - **Objectif** : Combiner toutes les sources de données et enrichir les stations avec des métriques supplémentaires
@@ -247,8 +237,6 @@ Le pipeline se compose de plusieurs jobs orchestrés dans l’ordre suivant :
   - Calcul des distances Haversine pour établissements critiques (LGF_250m / LGF_500m)
   - Comptage des ascenseurs par station
   - Export GeoParquet
-
----
 
 ##### ClassificationStationsJob
 - **Objectif** : Classer les stations selon plusieurs critères (accessibilité, LGF, ascenseurs, escaliers, étapes)
